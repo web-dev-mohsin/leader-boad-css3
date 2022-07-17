@@ -1,16 +1,29 @@
-/* common style */
+/* general fonts */
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Arvo:ital,wght@1,700&family=Asap:ital@1&family=Didact+Gothic&family=Fira+Sans:wght@200&family=Lato&family=Libre+Baskerville:ital@1&family=Overpass:wght@400;500&family=PT+Serif&family=Playfair+Display&family=Poppins:ital,wght@0,200;1,200&family=Raleway:wght@400;500;900&family=Roboto+Slab&display=swap');
+
+/* ========common style */
 body{
     background-color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
 }
 main{
-    display: flex;
-    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     background-color: white;
     width: 870px;
     padding: 30px; 
+    margin-top: 20px;
+    border-radius: 5px;
 }
+
+
+/* ==========
+           top blogs
+                 ======== */
+ 
 .top-player{
     margin-bottom: 30px;
 }
@@ -39,9 +52,14 @@ main{
 }
 .hr-1{
     border: 1px solid gainsboro;
+    margin-bottom: 20px;
 }
 
-/* top blogs styles */
+/* =============
+                        top blogs styles 
+=====================*/
+
+
 .blogs{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
