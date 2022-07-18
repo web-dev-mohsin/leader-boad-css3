@@ -1,11 +1,13 @@
 /* general fonts */
-@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Arvo:ital,wght@1,700&family=Asap:ital@1&family=Didact+Gothic&family=Fira+Sans:wght@200&family=Lato&family=Libre+Baskerville:ital@1&family=Overpass:wght@400;500&family=PT+Serif&family=Playfair+Display&family=Poppins:ital,wght@0,200;1,200&family=Raleway:wght@400;500;900&family=Roboto+Slab&display=swap');
-
+ 
 /* ========common style */
 body{
     background-color: antiquewhite;
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
+
 main{
     display: flex; 
     flex-direction: column;
@@ -19,7 +21,41 @@ main{
     border-radius: 5px;
 }
 
+/* Navigation */
 
+header{
+   
+    background-color: blue; 
+    color: white;
+    
+}
+
+.navigation{ 
+    width: 870px;
+    padding: 30px;   
+    border-radius: 5px;
+    margin: auto;
+
+}
+ 
+.nav-section{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+
+}
+.menu-iteam{
+    display: flex;
+    justify-content: space-evenly;
+} 
+.menu-iteam h4{
+    margin-right: 20px; 
+}
+.main-menu .logo img{
+    height: 60px;
+}
+.menu-iteam img{
+    height: 60px;
+}
 /* ==========
            top blogs
                  ======== */
@@ -107,8 +143,7 @@ main{
  
  .course-thumbnil img{
     height: 117px;
-    width: 224px;
-    padding: 5px; 
+    width: 100%;  
     display: block;
     margin: 0 auto;
  }
